@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='ISO−8859−1'?>
+<!DOCTYPE toc PUBLIC "-//Sun Microsystems Inc.//DTD
+ JavaHelp TOC Version 2.0//EN" "http://java.sun.com/products/javahelp/toc_2_0.dtd">
+<toc version="2.0">
+    <!-- Text. Texto de Contenido /descriptivo. target: Variable/referencia de Maps -->
+    <tocitem text="Index" target="t_index">
+        <tocitem text="Resumen" target="t_resumenbreve"/>
+        <tocitem text="Menu" target="t_menuprincipal"/>
+    </tocitem>    
+    <tocitem text="Ayuda" target="t_ayudas"/>
+    <tocitem text="FAQ" target="t_faq"/>    
+</toc>
