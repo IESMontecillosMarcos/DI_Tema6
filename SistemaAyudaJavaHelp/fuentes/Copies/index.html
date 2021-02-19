@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+    <title>App Hotel - Help</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        html,
+        body,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: "Roboto", sans-serif;
+        }
+    </style>
+
+    <body>
+        
+
+        <!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
+        <div class="w3-main" style="margin-left:250px">
+
+            <div class="w3-row w3-padding-64">
+                <div class="w3-twothird w3-container">
+                    <h1 class="w3-text-teal">Resumen Breve</h1>
+                    <p>App Hotel consiste en una aplicacion con la que se pretende realizar y facilitar las
+                        reservas y gestion de habitaciones de un Hotel ofreciendo al empleado gestor una herramienta
+                        facil de operar y que permita realizar acciones de gestion de forma automatica.
+
+                        En este apartado descubriras mas sobre App Hotel.
+                    </p>
+                </div>
+            </div>
+
+            <div class="w3-row">
+                <div class="w3-twothird w3-container">
+                    <h1 class="w3-text-teal">Menu Principal</h1>
+                    <p>El Menu Principal de la aplicacion consiste en una serie de opciones que facilitaran nuestra
+                        tarea diaria para la gestion de reservas.
+
+                        En este apartado aprenderá que puede hacer con la App
+                        y que opcion es la que mas le puede favorecer en cada situacion.
+                    </p>
+                </div>
+            </div>
+
+            <div class="w3-row w3-padding-64">
+                <div class="w3-twothird w3-container">
+                    <h1 class="w3-text-teal">Navegacion Basica</h1>
+                    <p>Navegar por la interfaz de App Hotel puede resultar muy facil de aprender ya que incorporamos
+                        elementos User-Friendly con los que no necesitara recordar complejas operaciones para realizar su
+                        trabajo, solo guiese por los iconos.
+
+                        Descubra en este apartado la estructura de la App.
+                    </p>
+                </div>
+            </div>
+
+            <div class="w3-row w3-padding-64">
+                <div class="w3-twothird w3-container">
+                    <h1 class="w3-text-teal">Reservas Habitaciones</h1>
+                    <p>Esta opcion se relacion con la cumplimentacion de una reserva de Habitaciones. Es una de las dos
+                        ventanas mas importantes de nuestra App, aqui ingresará a todos los clientes de su Hotel.
+
+                        En este apartado le explicamos mas en profundidad como trabaja esta interfaz.
+                    </p>
+                </div>
+            </div>
+
+            <div class="w3-row w3-padding-64">
+                <div class="w3-twothird w3-container">
+                    <h1 class="w3-text-teal">Reservas Habana</h1>
+                    <p>Esta opcion se relacion con la cumplimentacion de una reserva de Habana. Es la otra de las dos
+                        ventanas mas importantes de nuestra App, aqui ingresará a todos los clientes de su Hotel que
+                        quieran uan reserva del salon Habana..
+
+                        En este apartado le explicamos mas en profundidad como trabaja esta interfaz.</p>
+                </div>
+            </div>
+
+            <div class="w3-row w3-padding-64">
+                <div class="w3-twothird w3-container">
+                    <h1 class="w3-text-teal">Ayudas</h1>
+                    <p>A problemas en la vida, manual de ayuda! Por desgracia no hay manual para esto, pero si ofrecemos
+                        un apartado para solucionar cualquier problema que pueda tener usando la App. Desde ayudas basicas
+                        de interaccion de usuario hasta pequeños trucos y atajos para agilizar su trabajo.
+
+                        En este apartado le ofrecemos cualquier ayuda que necesite.
+                    </p>
+                </div>
+            </div>
+
+            <div class="w3-row w3-padding-64">
+                <div class="w3-twothird w3-container">
+                    <h1 class="w3-text-teal">FAQ</h1>
+                    <p>Todos somos humanos, y siempre habra dudas y cuestiones que no se hayan abordado o que hayamos
+                        pasado por alto. El apartado FAQ se encarga de corregir este problema ofreciendo a todos los usuarios
+                        las dudas de otros usuarios y mostrando las soluciones que le han ayudado a corregirlo en cada caso.
+
+                        En este apartado podra buscar su duda o incluso preguntar la suya propia.
+                    </p>
+                </div>
+            </div>
+
+            <!-- END MAIN -->
+        </div>
+
+        <script>
+            // Get the Sidebar
+            var mySidebar = document.getElementById("mySidebar");
+
+            // Get the DIV with overlay effect
+            var overlayBg = document.getElementById("myOverlay");
+
+            // Toggle between showing and hiding the sidebar, and add overlay effect
+            function w3_open() {
+                if (mySidebar.style.display === 'block') {
+                    mySidebar.style.display = 'none';
+                    overlayBg.style.display = "none";
+                } else {
+                    mySidebar.style.display = 'block';
+                    overlayBg.style.display = "block";
+                }
+            }
+
+            // Close the sidebar with the close button
+            function w3_close() {
+                mySidebar.style.display = "none";
+                overlayBg.style.display = "none";
+            }
+        </script>
+
+    </body>
+
+</html>
